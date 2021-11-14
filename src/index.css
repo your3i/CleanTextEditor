@@ -1,0 +1,71 @@
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overscroll-behavior: none;
+}
+
+textarea {
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    height: 99vh;
+    padding: 8px;
+    padding-bottom: 20px;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.toolbar {
+    z-index: 999999;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 20px;
+    background-color: lightgrey;
+    opacity: 0.6;
+}
+
+.word-count-label {
+    float: left;
+    margin-left: 8px;
+}
+
+#appearance-mode-button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    float: right;
+    margin-right: 8px;
+}
+
+.theme-light {
+    background-color: #FBF0D9;
+}
+
+.theme-light textarea {
+    background-color: transparent;
+    color: black;
+}
+
+.theme-dark {
+    background-color: #171717;
+}
+
+.theme-dark textarea {
+    background-color: transparent;
+    color: #e6e6e6;
+}
