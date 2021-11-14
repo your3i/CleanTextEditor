@@ -1,1 +1,2 @@
-# Clean Text Editor
+# Plain Text Editor
+URL: https://cleantexteditor.azurewebsites.net/
